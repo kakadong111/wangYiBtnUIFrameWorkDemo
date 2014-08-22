@@ -21,6 +21,9 @@
 		E7CFECF919A369500068C331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CFECDB19A369500068C331 /* UIKit.framework */; };
 		E7CFED0119A369500068C331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7CFECFF19A369500068C331 /* InfoPlist.strings */; };
 		E7CFED0319A369500068C331 /* wangYiBtnUIFrameWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFED0219A369500068C331 /* wangYiBtnUIFrameWorkDemoTests.m */; };
+		E7CFED0E19A36A000068C331 /* MenuHrizontal.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CFED0D19A36A000068C331 /* MenuHrizontal.m */; };
+		E7CFED1119A36C960068C331 /* helight.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CFED0F19A36C960068C331 /* helight.png */; };
+		E7CFED1219A36C960068C331 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = E7CFED1019A36C960068C331 /* normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,10 @@
 		E7CFECFE19A369500068C331 /* wangYiBtnUIFrameWorkDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wangYiBtnUIFrameWorkDemoTests-Info.plist"; sourceTree = "<group>"; };
 		E7CFED0019A369500068C331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7CFED0219A369500068C331 /* wangYiBtnUIFrameWorkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wangYiBtnUIFrameWorkDemoTests.m; sourceTree = "<group>"; };
+		E7CFED0C19A36A000068C331 /* MenuHrizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuHrizontal.h; sourceTree = "<group>"; };
+		E7CFED0D19A36A000068C331 /* MenuHrizontal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuHrizontal.m; sourceTree = "<group>"; };
+		E7CFED0F19A36C960068C331 /* helight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helight.png; sourceTree = "<group>"; };
+		E7CFED1019A36C960068C331 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,10 @@
 		E7CFECDD19A369500068C331 /* wangYiBtnUIFrameWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E7CFED0F19A36C960068C331 /* helight.png */,
+				E7CFED1019A36C960068C331 /* normal.png */,
+				E7CFED0C19A36A000068C331 /* MenuHrizontal.h */,
+				E7CFED0D19A36A000068C331 /* MenuHrizontal.m */,
 				E7CFECE619A369500068C331 /* SXWAppDelegate.h */,
 				E7CFECE719A369500068C331 /* SXWAppDelegate.m */,
 				E7CFECE919A369500068C331 /* Main.storyboard */,
@@ -230,8 +241,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CFECF019A369500068C331 /* Images.xcassets in Resources */,
+				E7CFED1219A36C960068C331 /* normal.png in Resources */,
 				E7CFECE219A369500068C331 /* InfoPlist.strings in Resources */,
 				E7CFECEB19A369500068C331 /* Main.storyboard in Resources */,
+				E7CFED1119A36C960068C331 /* helight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +265,7 @@
 			files = (
 				E7CFECE419A369500068C331 /* main.m in Sources */,
 				E7CFECE819A369500068C331 /* SXWAppDelegate.m in Sources */,
+				E7CFED0E19A36A000068C331 /* MenuHrizontal.m in Sources */,
 				E7CFECEE19A369500068C331 /* SXWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

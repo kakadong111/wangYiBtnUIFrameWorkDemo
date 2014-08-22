@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SXWViewController : UIViewController
+#import "MenuHrizontal.h"
+@interface SXWViewController : UIViewController<MenuHrizontalDelegate>
 
 @end
